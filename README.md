@@ -1,4 +1,4 @@
-pwdMeter
+jQuery pwdMeter 1.0.1
 =============
 
 pwdMeter is a small password strength meter plugin for jQuery that provides a neat and easy way to show the user's password strength. At the same time it helps a user to generate and choose a secured password for their account. The footprint is less than 3 KB in size. 
