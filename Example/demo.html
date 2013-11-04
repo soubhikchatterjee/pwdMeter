@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>pwdMeter Demo</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="jquery.js"></script>
+<script language="javascript" src="jquery.pwdMeter.js"></script>
+<script language="javascript">
+$(document).ready(function(){
+
+	$('#password').pwdMeter({
+		minLength: 6,
+		displayGeneratePassword: true,
+		generatePassText: 'Password Generator',
+		generatePassClass: 'GeneratePasswordLink',
+		RandomPassLength: 13
+	});
+	
+
+});
+</script>
+</head>
+<body>
+<table width="300" border="0" cellspacing="0" cellpadding="2">
+  <tr>
+    <td><input type="text" id="password"></td>
+  </tr>
+  <tr>
+    <td><div id="pwdMeter" class="neutral">Very Weak</div></td>
+  </tr>
+</table>
+
+</body>
+</html>
+
