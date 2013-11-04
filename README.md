@@ -10,15 +10,15 @@ pwdMeter is a small password strength meter plugin for jQuery that provides a ne
 ##Step 1:##
 Include a reference to the jQuery Core library (1.3 or above) and the pwdMeter plugin. ###
 
-```javascript
-<script language="javascript" src="jquery.js"><script>
+```html
+<script language="javascript" src="jquery.js"></script>
 <script language="javascript" src="jquery.pwdMeter.js"></script>`
 ```
 
 ## Step 2: ##
 In your HTML file, provide the markup required by pwdMeter. 
 
-```javascript
+```html
 <table width="300" border="0" cellpadding="2" cellspacing="0">
   <tbody><tr>
     <td><input id="password" type="text"></td>
@@ -32,7 +32,7 @@ In your HTML file, provide the markup required by pwdMeter.
 ## Step 3: ##
 Finally you need to fire a call to the pwdMeter plugin and supply your parameters (if any): 
 
-```javascript
+```html
 <script language="javascript">
     $(document).ready(function(){
  
