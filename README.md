@@ -12,7 +12,7 @@ Include a reference to the jQuery Core library (1.3 or above) and the pwdMeter p
 
 ```html
 <script language="javascript" src="jquery.js"></script>
-<script language="javascript" src="jquery.pwdMeter.js"></script>`
+<script language="javascript" src="jquery.pwdMeter.js"></script>
 ```
 
 ## Step 2: ##
